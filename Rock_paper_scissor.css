@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(25, 25, 25);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.heading {
+  font-size: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.emoji {
+  height: 50px;
+}
+.emoji_button {
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.result {
+  margin-top: 50px;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+}
+.moves {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+}
+.score {
+  margin-top: 50px;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+}
+.reset_score_button {
+  border: none;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 5px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.autoplay_button {
+  border: none;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 5px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-top: 20px;
+}
