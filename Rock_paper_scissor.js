@@ -72,8 +72,8 @@ function playGame(playerMove) {
   UpdateScoreElement();
   document.querySelector(".js-result").innerHTML = `${result}`;
   document.querySelector(".js-moves").innerHTML = ` 
-      You <img class="emoji" src="images/${playerMove}-emoji.png" alt="">
-    <img class="emoji" src="images/${computerMove}-emoji.png" alt=""> Computer`;
+      You <img class="emoji" src="${playerMove}-emoji.png" alt="">
+    <img class="emoji" src="${computerMove}-emoji.png" alt=""> Computer`;
 
   //       alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}
   // Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`);
